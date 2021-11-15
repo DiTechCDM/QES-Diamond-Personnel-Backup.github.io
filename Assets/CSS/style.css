@@ -522,6 +522,7 @@ body::-webkit-scrollbar {
     -ms-flex: 1;
     flex: 1;
     margin: 0px 3px 0px 3px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .col-sm-0 {
