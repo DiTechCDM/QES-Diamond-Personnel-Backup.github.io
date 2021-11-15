@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    background-color: #F3F1F3;
+}
+
+/* Font Face Importing */
+
+@font-face {
+    font-family: Poppins_Regular;
+    src: url('../Fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: Poppins_Bold;
+    src: url('../Fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: Poppins_SemiBold;
+    src: url('../Fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: Poppins_LightItalic;
+    src: url('../Fonts/Poppins/Poppins-LightItalic.ttf');
+}
+
+:root {
+    --h1: 65px;
+    --h2: 30px;
+    --h3: 26px;
+    --p: 18px;
+    --h1-mob: 36px;
+    --h2-mob: 28px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+
+/* Reset css */
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* Font Face Importing ends here */
+
+/* service component starts here */
+
+#service_banner_component {
+    padding: 50px 0px 50px 0px;
+}
+
+.service-banner {
+    max-width: 1320px;
+    padding: 0px 10px 0px 10px;
+}
+
+.service-banner h1 {
+    font-size: 65px;
+    font-size: var(--h1);
+    font-family: 'Poppins_Bold';
+    letter-spacing: 0.03em;
+    line-height: 1.3195;
+    color: #136B93;
+}
+
+.service-banner p {
+    font-size: 18px;
+    font-size: var(--p);
+    font-family: 'Poppins_Regular';
+    letter-spacing: 0.03em;
+    margin-top: 4rem;
+    line-height: 1.3195;
+    margin-bottom: 3rem;
+    color: #585858;
+}
+
+#service_desktop {
+    width: 100%;
+}
+
+#service_Ipad {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 1080px) {
+    .service-banner h1 br {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #service_desktop {
+        display: none;
+    }
+    #service_Ipad {
+        display: block;
+    }
+    #service_banner_component {
+        padding: 10px 0px 10px 0px;
+    }
+    .service-banner {
+        padding: 0px 0px 0px 0px;
+    }
+    .service-text {
+        padding: 50px 20px 50px 20px;
+    }
+    .service-banner p {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .service-banner h1 {
+        font-size: 56px;
+    }
+}
+
+@media screen and (max-width: 538px) {
+    .service-banner h1 {
+        font-size: 36px;
+    }
+    .service-text {
+        padding: 50px 10px 50px 10px;
+    }
+    .service-banner p {
+        margin-top: 1rem;
+    }
+    .service-banner p {
+        font-size: 16px;
+    }
+}
+
+/* service component ends here */
+
+/* 3-cards component starts here */
+
+/* .service-card {
+    max-width: 1390px;
+    padding: 0px 10px 0px 10px;
+} */
+
+
+/* 3-cards component ends here */
