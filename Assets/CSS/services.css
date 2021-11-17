@@ -331,6 +331,10 @@ body::-webkit-scrollbar {
     width: 100%;
 }
 
+.card-text-row a {
+    text-decoration: none;
+}
+
 .card-text-col {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -483,3 +487,5 @@ body::-webkit-scrollbar {
         font-size: 16px;
     }
 }
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx~~~~~~~~~~~~~ Core Page Ends here xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx~~~~~~~~~~~~~ */
