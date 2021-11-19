@@ -75,7 +75,7 @@ body::-webkit-scrollbar {
 .banner-text p:nth-child(1) {
     font-size: 18px;
     font-size: var(--p);
-    font-family: 'Poppins_Regular';
+    font-family: 'Poppins_Bold';
     letter-spacing: 0.03em;
     color: #585858;
 }
@@ -113,15 +113,22 @@ body::-webkit-scrollbar {
         display: block;
         width: 100%;
     }
+    .banner-text p:nth-child(3) {
+        margin-bottom: 1rem;
+    }
+
     .about-banner-wrapper #about-desktop {
         display: none;
     }
+
     #about_Banner_section {
         padding: 10px 0px 10px 0px;
     }
+
     .banner-text {
         padding: 50px 20px 50px 20px;
     }
+
     .banner-text h1 br {
         content: "";
         display: none;
@@ -139,9 +146,11 @@ body::-webkit-scrollbar {
         font-size: 36px;
         font-size: var(--h1-mob);
     }
+
     .banner-text {
-        padding: 50px 10px 50px 10px;
+        padding: 50px 15px 10px 15px;
     }
+
     .banner-text p:nth-child(3) {
         margin-top: 1rem;
         font-size: 16px;
@@ -184,8 +193,9 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 538px) {
     .center-text-wrapper {
-        padding: 0px 10px 0px 10px;
+        padding: 0px 15px 0px 15px;
     }
+
     .center-text-wrapper p {
         font-size: 16px;
     }
@@ -237,13 +247,13 @@ body::-webkit-scrollbar {
 }
 
 .ps-18 {
-    padding: 60px 40px 60px 40px;
+    padding: 55px 40px 55px 40px;
 }
 
 .flip-text1-col p:nth-child(1) {
     font-size: 18px;
     font-size: var(--p);
-    font-family: 'Poppins_Regular';
+    font-family: 'Poppins_Bold';
     letter-spacing: 0.03em;
 }
 
@@ -275,6 +285,7 @@ body::-webkit-scrollbar {
         max-width: 1080px;
         padding: 0px 10px 0px 10px;
     }
+
     .flip-text1-col h2 br {
         display: none;
     }
@@ -284,6 +295,7 @@ body::-webkit-scrollbar {
     .about-flip-section {
         padding: 0px 20px 0px 20px;
     }
+
     .about-flip-row {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -296,9 +308,11 @@ body::-webkit-scrollbar {
     .about-flip-section {
         padding: 0px 10px 0px 10px;
     }
+
     .ps-18 {
         padding: 60px 20px 60px 20px;
     }
+
     .flip-text1-col p:nth-child(3) {
         font-size: 16px;
     }
@@ -355,7 +369,7 @@ body::-webkit-scrollbar {
 .aside-col p:nth-child(1) {
     font-size: 18px;
     font-size: var(--p);
-    font-family: 'Poppins_Regular';
+    font-family: 'Poppins_Bold';
     letter-spacing: 0.03em;
     color: #2D2B54;
 }
@@ -408,16 +422,22 @@ body::-webkit-scrollbar {
         -ms-flex-direction: column;
         flex-direction: column;
     }
+
+    .aside-col h2 br {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 538px) {
     #aside_text_section {
-        padding: 0px 10px 50px 10px;
+        padding: 0px 15px 50px 15px;
     }
+
     .footer-wrapper {
         max-width: 1350px;
         padding: 60px 10px 20px 10px;
     }
+
     .aside-lg-col p {
         font-size: 16px;
     }
